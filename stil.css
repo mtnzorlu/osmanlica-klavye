@@ -1,0 +1,83 @@
+*{border: none; text-decoration: none; list-style: none; color: #222222; box-sizing: border-box;}
+body{
+border: none; text-decoration: none; list-style: none; margin: 0; padding: 0;
+box-sizing: border-box; text-align: center; outline: none; background-color: #f0d5bf}
+@font-face {
+    font-family: 'XB Zar';
+    src: local('XB Zar'), local('XB Zar'), url('/Gorunum/genel/css/xbzar/XB Zar.ttf') format('truetype');
+    font-weight: 400;
+    font-style:normal;
+    font-display:swap;
+}
+#ana{width: 765px; margin: 0 auto;}
+
+#klavye{background-color: #dddddd; border: 1px solid #bbbbbb;
+padding: 4px 0; border-radius: 7px; margin: 5px 0;}
+
+.keys{
+    box-sizing: border-box; 
+    padding: 2px 6px; display: flex; justify-content: center;
+}
+
+button{font-family: 'XB Zar', sans-serif; cursor: pointer; outline: none; font-size: 22px; 
+    padding: 12px 15px; background-color: #e7e7e7; color: #9b4153; border-radius: 5px;
+    border-top: 1px solid #ffffff; border-bottom: 1px solid #b6b6b6; 
+    line-height: 20px; text-align: center; margin: 0 1px; 
+    transition: .2s;
+}
+button:hover{background-color: #f1dede; color: #511823;}
+button:active{color: #89515C; background-color: #E9CCCC; 
+ border-top: 1px solid #BDBDBD; border-bottom: 1px solid #D0D0D0;}
+
+
+.tahta{color: #000; height: 340px;
+border: 1px solid #bbbbbb; width: 100%; 
+margin: 2px 0; padding: 0; 
+background: #dddddd; box-sizing: border-box; 
+}
+
+#p{
+height: 100%;
+width: 100%;
+overflow:auto;
+word-wrap: break-word;
+white-space: pre-wrap;
+border: none;
+resize: none;
+padding: 10px 15px;
+font-family: 'XB Zar', sans-serif;
+font-size: 28px;
+color: #444444;
+background-color: #dddddd;
+line-height: 53px;
+}
+.besmele, .temizle, .bosluk, .tab, .sil, .entr{
+background-color: #e4d7d7; border-top: 1px solid #f1ecec; font-size: 18px; 
+}
+
+
+footer{
+    margin-top: 2px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    border-top: 2px solid #ac8282;
+    border-bottom: 2px solid #ac8282;
+    padding: 15px;
+}
+p{margin:0;}
+h1{font: 16px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 2px 10px;}
+h2{font: 14px roboto, arial, sans-serif; color: #88606c;    
+ line-height: 22px; text-align: center; padding: 10px;}
+ a{font: 12px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 0;}
+ a:hover{color: #005db4;}
+ hr{border: none; border-top: 1px solid #eee; height: 1px;}
+@media screen and (max-width:760px){
+    button{padding:2px 8px; font: 16px 'XB Zar', sans-serif; margin:1px 2px;}
+    #ana{width:100%;}
+}
+@media screen and (max-width:440px){
+    button{padding:1px 6px; font: 14px 'XB Zar', sans-serif;}
+}
+@media screen and (max-width:360px){
+    button{padding:1px 6px; font: 11px 'XB Zar', sans-serif; margin:1px;}
+}
