@@ -10,13 +10,18 @@
 			}
 						
 			
+
 			function odakla () {
 
-				document.getElementById('p').focus(v);
+			var odak = document.getElementById('p');
+
+			odak.addEventListener('focus', function(v) {
+
 				v.preventDefault();
 
+			});
 			}
-						
+							
 			
 			// Rakamlar
 			document.querySelector(".bir").addEventListener('click', function(){
