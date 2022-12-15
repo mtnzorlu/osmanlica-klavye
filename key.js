@@ -10,9 +10,9 @@
 			}
 						
 			
-			function odakla (v) {
+			function odakla () {
 
-				document.getElementById('p').focus();
+				document.getElementById('p').focus(v);
 				v.preventDefault();
 
 			}
