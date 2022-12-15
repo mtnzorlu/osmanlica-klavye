@@ -19,9 +19,12 @@ button{font-family: 'XB Zar', sans-serif; cursor: pointer; outline: none; font-s
     line-height: 20px; text-align: center; margin: 0 1px; 
     transition: .2s;
 }
+
 button:hover{background-color: #f1dede; color: #511823;}
 button:active{color: #89515C; background-color: #E9CCCC; 
- border-top: 1px solid #BDBDBD; border-bottom: 1px solid #D0D0D0;}
+border-top: 1px solid #BDBDBD; border-bottom: 1px solid #D0D0D0;}
+
+#buu{margin: 2px 0; font-size: 12px; font-family: Roboto, arial, helvetica, sans-serif; padding: 6px 12px;}
 
 
 .tahta{color: #000; height: 340px;
@@ -45,10 +48,10 @@ color: #444444;
 background-color: #dddddd;
 line-height: 53px;
 }
+
 .besmele, .temizle, .bosluk, .tab, .sil, .entr{
 background-color: #e4d7d7; border-top: 1px solid #f1ecec; font-size: 18px; 
 }
-
 
 footer{
     margin-top: 2px;
@@ -58,6 +61,7 @@ footer{
     border-bottom: 2px solid #ac8282;
     padding: 15px;
 }
+
 p{margin:0;}
 h1{font: 16px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 2px 10px;}
 h2{font: 14px roboto, arial, sans-serif; color: #88606c;    

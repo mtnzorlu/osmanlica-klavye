@@ -1,3 +1,15 @@
+			// Yazdırma görünümü
+			
+			function yazdir () {
+
+				document.getElementById('tahta').style.height = '100vh';
+				document.getElementById('klavye').style.display = 'none';
+				document.getElementById('foo').style.display = 'none';
+				document.getElementById('buu').style.display = 'none';
+				
+			}
+						
+			
 			// Rakamlar
 			document.querySelector(".bir").addEventListener('click', function(){
 				var bir = "۱";
@@ -434,7 +446,6 @@
 				document.getElementById('p').value = "";
 				document.getElementById('p').focus();
 			});
-
 
 
 

@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="tr-TR">
 <head>
-		<title>Osmanlıca Klavye</title>
-		<meta charset="UTF-8">
-    	<meta name="description" content="Osmanlıca, Arapça ve Farsça, online klavye uygulaması.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/gif" href="../tsimge.gif" />
-		<link href="stil.css" rel="stylesheet">
-		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/xb-zar" type="text/css"/> 
+	<title>Osmanlıca Klavye</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Osmanlıca, Arapça ve Farsça, online klavye uygulaması.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/gif" href="../tsimge.gif" />
+	<link href="stil.css" rel="stylesheet">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/xb-zar" type="text/css"/> 
 </head>
-	<body>
+<body>
 
-		<div id="ana">
+	<div id="ana">
 			
-					<div class="tahta">
-						 <textarea id="p" name="textarea" contenteditable="true" dir="rtl"></textarea>
-					</div>
+			<div class="tahta" id="tahta">
+				 <textarea id="p" name="textarea" contenteditable="true" dir="rtl"></textarea>
+			</div>
 			
 			<div id="klavye">
-				<div class="keys">
-				<button class="bir">۱</button>
-				<button class="iki">۲</button>
-				<button class="uc">۳</button>
-				<button class="dort">٤</button>
-				<button class="bes">٥</button>
-				<button class="alti">٦</button>
-				<button class="yedi">۷</button>
-				<button class="sekiz">۸</button>
-				<button class="dokuz">۹</button>
-				<button class="sifir">۰</button>
-				<button class="bolu">/</button>
-				<button class="arti">+</button>
-				<button class="eksi">-</button>
-				<button class="esittir">=</button>
-				<button class="sil">&rarr;</button>
-				</div>
+			<div class="keys">
+			<button class="bir">۱</button>
+			<button class="iki">۲</button>
+			<button class="uc">۳</button>
+			<button class="dort">٤</button>
+			<button class="bes">٥</button>
+			<button class="alti">٦</button>
+			<button class="yedi">۷</button>
+			<button class="sekiz">۸</button>
+			<button class="dokuz">۹</button>
+			<button class="sifir">۰</button>
+			<button class="bolu">/</button>
+			<button class="arti">+</button>
+			<button class="eksi">-</button>
+			<button class="esittir">=</button>
+			<button class="sil">&rarr;</button>
+			</div>
 
 			<div class="keys">
 			<button class="da">ض</button>
@@ -85,7 +85,6 @@
 			<button class="hem">ء</button>
 			<button class="hmel">أ</button>
 			<button class="med">آ</button>
-
 			</div>
 
 			<div class="keys">
@@ -103,7 +102,7 @@
 			<button class="besmele">بســـم الله</button>
 			</div>
 
-		<hr>
+			<hr>
 
 			<div class="keys">
 			<button class="suslu">❊</button>
@@ -121,28 +120,35 @@
 			<button class="aceker">ٖ</button>
 			<button class="medd">ٓ</button>
 			</div>
-</div>
 
- <footer>
-	<h1>Arapça ve Osmanlıca Klavye - Uygulaması</h1>
-	 
-	<h2>Osmanlıca ve Arapça Online Klavye Uygulaması, ekran klavyesi ile kelimeler yazın ve kendinizi geliştirin!
-		Bu uygulama size tam bir Osmanlıca klavye sunuyor.
-	 	Klavye yenilendi ve Osmanlıca yazmak için elverişli hale getirildi. Bütün yazdıklarınızı kopyalayabilirsiniz.
-	 	Ek alan kelimelere ve okutucu harflere dikkat edin. 
-	 	Arapça ve Farsça kelimeler için Lügat kitaplarına müracaat ediniz.
-	 	Ayrıca harekeleri de kullanabilirsiniz. Bunun için, önce harfi, sonra harekesini tıklayınız.
-	 </h2>
-	 
-	   <h2>Enter ile alt satıra geçer.
-		   Tab ile dört karakter boşluk bırakılır.
-		   Tahtadakinin tümünü silmek için “Yeni” tuşlayın.
-	   </h2>
-	  </footer>
+			</div>
 
 
-</div>
+			<footer id="foo">
+				<h1>Arapça ve Osmanlıca Klavye - Uygulaması</h1>
+				
+				<h2>Osmanlıca ve Arapça Online Klavye Uygulaması, ekran klavyesi ile kelimeler yazın ve kendinizi geliştirin!
+					Bu uygulama size tam bir Osmanlıca klavye sunuyor.
+					Klavye yenilendi ve Osmanlıca yazmak için elverişli hale getirildi. Bütün yazdıklarınızı kopyalayabilirsiniz.
+					Ek alan kelimelere ve okutucu harflere dikkat edin. 
+					Arapça ve Farsça kelimeler için Lügat kitaplarına müracaat ediniz.
+					Ayrıca harekeleri de kullanabilirsiniz. Bunun için, önce harfi, sonra harekesini tıklayınız.
+				</h2>
+				
+				<h2>Enter ile alt satıra geçer.
+					Tab ile dört karakter boşluk bırakılır.
+					Tahtadakinin tümünü silmek için “Yeni” tuşlayın.
+				</h2>
+
+				<h2>Yazıcıdan çıktı almak istediğinizde, yazdırma görünümüne tıklayınız.</h2>
+
+
+			<button id="buu" class="klavyeyi" onclick='yazdir()'>Yazdırma görünümü</button>
+
+			</footer>
+
+	</div>
+
 <script src="key.js" type="text/javascript" language="javascript"></script>
-
-	</body>
+</body>
 </html>
