@@ -10,11 +10,19 @@
 			}
 						
 			
+			function odakla (v) {
+
+				document.getElementById('p').focus();
+				v.preventDefault();
+
+			}
+						
+			
 			// Rakamlar
 			document.querySelector(".bir").addEventListener('click', function(){
 				var bir = "۱";
 				document.getElementById('p').value += bir;
-				document.getElementById('p').focus();
+				odakla();
 			});
 			document.querySelector(".iki").addEventListener('click', function(){
 				var iki = "۲";
