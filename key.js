@@ -12,12 +12,8 @@
 
 			function odakla () {
 
-			var odak = document.getElementById('p').focus();
-
-			odak.addEventListener('focus', function(v) {
-				v.preventDefault();
-			});
-			
+			document.getElementById('p').focus();
+				
 			}
 						
 			
