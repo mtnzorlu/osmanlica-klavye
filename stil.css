@@ -82,7 +82,7 @@ h2{font: 14px roboto, arial, sans-serif; color: #88606c;
     .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 12px;}
 }
 
-@media screen and (max-width:368px){
+@media screen and (max-width:375px){
     button{padding:1px 6px; font: 11px 'XB Zar', sans-serif; margin:1px;} .bosluk{padding: 2px 22px;} 
     .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 10px;}
 }
