@@ -73,16 +73,16 @@ h2{font: 14px roboto, arial, sans-serif; color: #88606c;
  hr{border: none; border-top: 1px solid #eee; height: 1px;}
 
 @media screen and (max-width:760px){
-    button{padding:2px 8px; font: 20px 'XB Zar', sans-serif; margin:1px 2px;}
+    button{padding:2px 8px; font-size: 20px; margin:1px 2px;}
     #ana{width:100%;} .bosluk{padding: 2px 42px;} 
     .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 16px;}
 }
 @media screen and (max-width:480px){
-    button{padding:1px 6px; font: 16px 'XB Zar', sans-serif;} .bosluk{padding: 2px 32px;} 
+    button{padding:1px 6px; font-size: 16px;} .bosluk{padding: 2px 32px;} 
     .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 12px;}
 }
 
 @media screen and (max-width:375px){
-    button{padding:1px 6px; font: 11px 'XB Zar', sans-serif; margin:1px;} .bosluk{padding: 2px 22px;} 
+    button{padding:1px 6px; font-size: 14px; margin:1px;} .bosluk{padding: 2px 22px;} 
     .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 10px;}
 }
