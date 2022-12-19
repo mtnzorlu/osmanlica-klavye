@@ -70,14 +70,14 @@ h2{font: 14px roboto, arial, sans-serif; color: #88606c;
  a:hover{color: #005db4;}
  hr{border: none; border-top: 1px solid #eee; height: 1px;}
 @media screen and (max-width:760px){
-    button{padding:2px 8px; font-size: 16px; margin:1px 2px;}
+    button{padding: 8px; font-size: 16px; margin:1px 2px;}
     #ana{width:100%;}
 }
 @media screen and (max-width:440px){
-    button{padding:1px 6px; font-size: 14px;} 
+    button{padding:4px 6px; font-size: 14px;} 
     #ana{width:100%;}    
 }
 @media screen and (max-width:360px){
-    button{padding:1px 6px; font-size: 11px; margin:1px;} 
+    button{padding:4px 6px; font-size: 11px; margin:1px;} 
     #ana{width:100%}
 }
