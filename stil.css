@@ -53,6 +53,8 @@ line-height: 53px;
 background-color: #e4d7d7; border-top: 1px solid #f1ecec; font-size: 18px; 
 }
 
+.bosluk{padding: 12px 77px;}
+
 footer{
     margin-top: 2px;
     background-color: #f1f1f1;
@@ -69,15 +71,18 @@ h2{font: 14px roboto, arial, sans-serif; color: #88606c;
  a{font: 12px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 0;}
  a:hover{color: #005db4;}
  hr{border: none; border-top: 1px solid #eee; height: 1px;}
+
 @media screen and (max-width:760px){
-    button{padding: 8px; font-size: 16px; margin:1px 2px;}
-    #ana{width:100%;}
+    button{padding:2px 8px; font: 20px 'XB Zar', sans-serif; margin:1px 2px;}
+    #ana{width:100%;} .bosluk{padding: 2px 42px;} 
+    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 16px;}
 }
-@media screen and (max-width:440px){
-    button{padding:4px 6px; font-size: 14px;} 
-    #ana{width:100%;}    
+@media screen and (max-width:470px){
+    button{padding:1px 6px; font: 14px 'XB Zar', sans-serif;} .bosluk{padding: 2px 32px;} 
+    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 12px;}
 }
-@media screen and (max-width:360px){
-    button{padding:4px 6px; font-size: 11px; margin:1px;} 
-    #ana{width:100%}
+
+@media screen and (max-width:368px){
+    button{padding:1px 6px; font: 11px 'XB Zar', sans-serif; margin:1px;} .bosluk{padding: 2px 22px;} 
+    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 10px;}
 }
