@@ -1,4 +1,4 @@
-# Arabic and Ottoman Keyboard Application 2.0
+# Arabic and Ottoman Keyboard Application v 2.0
 
 An online keyboard application for Ottoman Turkish and Arabic.
 Type words using the on-screen keyboard and improve your skills!
@@ -13,7 +13,7 @@ You can also use diacritics—simply click the letter first, then select the dia
 
 ![Ottoman Keyboard](assets/img/ss.png)
 
-# Arapça ve Osmanlıca Klavye Uygulaması 2.0
+# Arapça ve Osmanlıca Klavye Uygulaması v 2.0
 
 Osmanlıca ve Arapça Online Klavye Uygulaması.
 Ekran klavyesi ile kelimeler yazın ve kendinizi geliştirin!
