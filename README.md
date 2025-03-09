@@ -1,4 +1,4 @@
-![Ottoman Keyboard](assets/img/ss.png)
+[![Ottoman Keyboard](assets/img/ss.png)](https://mtnzorlu.github.io/osmanlica-klavye)
 
 # Arabic and Ottoman Keyboard Application v 2.0
 
