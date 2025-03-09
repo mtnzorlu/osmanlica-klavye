@@ -1,3 +1,5 @@
+![Ottoman Keyboard](assets/img/ss.png)
+
 # Arabic and Ottoman Keyboard Application v 2.0
 
 An online keyboard application for Ottoman Turkish and Arabic.
@@ -10,8 +12,6 @@ You can copy everything you type.
 Pay attention to extra letters and reading marks.
 For Arabic and Persian words, refer to dictionary books.
 You can also use diacritics—simply click the letter first, then select the diacritic.
-
-![Ottoman Keyboard](assets/img/ss.png)
 
 # Arapça ve Osmanlıca Klavye Uygulaması v 2.0
 
