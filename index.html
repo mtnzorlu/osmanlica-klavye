@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="tr-TR">
+<html>
+
 <head>
+<<<<<<< HEAD
 	<title>Osmanlıca Klavye</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Osmanlıca, Arapça ve Farsça, online klavye uygulaması.">
@@ -35,39 +37,83 @@
 			<button class="esittir">=</button>
 			<button class="sil">&rarr;</button>
 			</div>
+=======
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Osmanlıca, Arapça ve Farsça online klavye uygulaması">
 
-			<div class="keys">
-			<button class="da">ض</button>
-			<button class="sa">ص</button>
-			<button class="se">ث</button>
-			<button class="q">ق</button>
-			<button class="f">ف</button>
-			<button class="ga">غ</button>
-			<button class="aa">ع</button>
-			<button class="h">ه</button>
-			<button class="hi">خ</button>
-			<button class="ha">ح</button>
-			<button class="c">ج</button>
-			<button class="ch">چ</button>
-			<button class="temizle">Yeni</button>
+	<title>Osmanlıca Klavye</title>
+
+	<link rel="icon" type="image/gif" href="assets/img/icon.png">
+	<link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+	<div class="container">
+		<main>
+			<!-- Yazı Alanı -->
+			<div class="writing-board">
+				<textarea id="textArea" dir="rtl" inputmode="none"></textarea>
 			</div>
 
-			<div class="keys">
-			<button class="sh">ش</button>
-			<button class="sin">س</button>
-			<button class="y">ی</button>
-			<button class="b">ب</button>
-			<button class="l">ل</button>
-			<button class="a">ا</button>
-			<button class="t">ت</button>
-			<button class="n">ن</button>
-			<button class="m">م</button>
-			<button class="k">ك</button>
-			<button class="ge">گ</button>
-			<button class="nef">ڭ</button>
-			<button class="entr">Enter</button>
-			</div>
+			<!-- Klavye -->
+			<div class="keyboard">
+				<!-- Rakamlar Sırası -->
+				<div class="keyboard-row">
+					<button class="key number">۱</button>
+					<button class="key number">۲</button>
+					<button class="key number">۳</button>
+					<button class="key number">٤</button>
+					<button class="key number">٥</button>
+					<button class="key number">٦</button>
+					<button class="key number">۷</button>
+					<button class="key number">۸</button>
+					<button class="key number">۹</button>
+					<button class="key number">۰</button>
+					<button class="key operator">/</button>
+					<button class="key operator">+</button>
+					<button class="key operator">-</button>
+					<button class="key operator">=</button>
+					<button class="key function" id="backspace">⌫</button>
+				</div>
+>>>>>>> 89b2f06 (v 2.0)
 
+				<!-- Birinci Harf Sırası -->
+				<div class="keyboard-row">
+					<button class="key function" id="tab">Tab</button>
+					<button class="key letter">ض</button>
+					<button class="key letter">ص</button>
+					<button class="key letter">ث</button>
+					<button class="key letter">ق</button>
+					<button class="key letter">ف</button>
+					<button class="key letter">غ</button>
+					<button class="key letter">ع</button>
+					<button class="key letter">ه</button>
+					<button class="key letter">خ</button>
+					<button class="key letter">ح</button>
+					<button class="key letter">ج</button>
+					<button class="key letter">چ</button>
+					<button class="key function" id="clear">Yeni</button>
+				</div>
+
+				<!-- İkinci Harf Sırası -->
+				<div class="keyboard-row">
+					<button class="key letter">ش</button>
+					<button class="key letter">س</button>
+					<button class="key letter">ی</button>
+					<button class="key letter">ب</button>
+					<button class="key letter">ل</button>
+					<button class="key letter">ا</button>
+					<button class="key letter">ت</button>
+					<button class="key letter">ن</button>
+					<button class="key letter">م</button>
+					<button class="key letter">ك</button>
+					<button class="key letter">گ</button>
+					<button class="key letter">ڭ</button>
+					<button class="key function" id="enter">⏎</button>
+				</div>
+
+<<<<<<< HEAD
 			<div class="keys">
 			<button class="zi">ظ</button>
 			<button class="ti">ط</button>
@@ -152,3 +198,102 @@
 <script src="key.js" type="text/javascript" language="javascript"></script>
 </body>
 </html>
+=======
+				<!-- Üçüncü Harf Sırası -->
+				<div class="keyboard-row">
+					<button class="key letter">ظ</button>
+					<button class="key letter">ط</button>
+					<button class="key letter">ز</button>
+					<button class="key letter">ر</button>
+					<button class="key letter">ذ</button>
+					<button class="key letter">د</button>
+					<button class="key letter">پ</button>
+					<button class="key letter">و</button>
+					<button class="key letter">ژ</button>
+					<button class="key letter">ة</button>
+					<button class="key letter">ئ</button>
+					<button class="key letter">آ</button>
+					<button class="key letter">أ</button>
+					<button class="key letter">إ</button>
+					<button class="key letter">ء</button>
+					<button class="key letter">ﻻ</button>
+				</div>
+
+				<!-- Özel Karakterler -->
+				<div class="keyboard-row">
+					<button class="key letter">ؤ</button>
+					<button class="key letter">ۀ</button>
+					<button class="key symbol">ـ</button>
+					<button class="key symbol">(</button>
+					<button class="key symbol">)</button>
+					<button class="key letter">❊</button>
+					<button class="key space">&nbsp;</button>
+					<button class="key symbol">؟</button>
+					<button class="key symbol">!</button>
+					<button class="key symbol">:</button>
+					<button class="key symbol">؛</button>
+					<button class="key symbol">،</button>
+					<button class="key symbol">.</button>
+				</div>
+
+				<hr>
+
+				<!-- Harekeler -->
+				<div class="keyboard-row">
+					<button class="key diacritic">َ</button>
+					<button class="key diacritic">ِ</button>
+					<button class="key diacritic">ُ</button>
+					<button class="key diacritic">ْ</button>
+					<button class="key diacritic">ّ</button>
+					<button class="key diacritic">ً</button>
+					<button class="key diacritic">ٍ</button>
+					<button class="key diacritic">ٌ</button>
+					<button class="key diacritic">ٰ</button>
+					<button class="key diacritic">ٖ</button>
+					<button class="key diacritic">ٓ</button>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-content">
+				<div class="footer-header" onclick="toggleFooter()">
+					<h1>Arapça ve Osmanlıca Klavye Uygulaması</h1>
+					<span class="toggle-icon">▼</span>
+				</div>
+
+				<div class="collapsible-content hidden">
+					<div class="info-container">
+						<div class="info-box">
+							<h3>Önemli Bilgiler</h3>
+							<p>Ek alan kelimelere ve okutucu harflere dikkat edin.</p>
+							<p>Arapça ve Farsça kelimeler için Lügat kitaplarına müracaat ediniz.</p>
+							<p>Harekeler için önce harfi, sonra harekesini tıklayınız.</p>
+							<p>Bütün yazdıklarınızı kopyalayabilirsiniz.</p>
+
+							<h3>Özel Tuşlar</h3>
+							<p>⏎ Enter: Alt satıra geç</p>
+							<p>⇥ Tab: Dört karakter boşluk</p>
+							<p>⌫ Backspace: Son karakteri sil</p>
+							<p>Yeni: Tüm metni temizle</p>
+
+							<h3>Uygulama Hakkında</h3>
+							<p>Osmanlıca ve Arapça Online Klavye Uygulaması.</p>
+							<p>Sürüm: 2.0</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="print-section">
+					<button class="print-button" onclick="printView()">
+						Yazdırma Görünümü
+					</button>
+				</div>
+		</footer>
+	</div>
+
+	<script src="key.js"></script>
+</body>
+
+</html>
+>>>>>>> 89b2f06 (v 2.0)
