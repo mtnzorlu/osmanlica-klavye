@@ -81,15 +81,6 @@ body {
     min-width: 40px;
     transition: .2s;
 }
-<<<<<<< HEAD
-
-button:hover{background-color: #f1dede; color: #511823;}
-button:active{color: #89515C; background-color: #E9CCCC; 
-border-top: 1px solid #BDBDBD; border-bottom: 1px solid #D0D0D0;}
-
-#buu{margin: 2px 0; font-size: 12px; font-family: Roboto, arial, helvetica, sans-serif; padding: 6px 12px;}
-=======
->>>>>>> 89b2f06 (v 2.0)
 
 hr {
 	border-top: 1px solid #eeeeee;
@@ -115,44 +106,6 @@ hr {
     border-bottom: 1px solid #D0D0D0;
 }
 
-<<<<<<< HEAD
-.besmele, .temizle, .bosluk, .tab, .sil, .entr{
-background-color: #e4d7d7; border-top: 1px solid #f1ecec; font-size: 18px; 
-}
-
-.bosluk{padding: 12px 77px;}
-
-footer{
-    margin-top: 2px;
-    background-color: #f1f1f1;
-    box-sizing: border-box;
-    border-top: 2px solid #ac8282;
-    border-bottom: 2px solid #ac8282;
-    padding: 15px;
-}
-
-p{margin:0;}
-h1{font: 16px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 2px 10px;}
-h2{font: 14px roboto, arial, sans-serif; color: #88606c;    
- line-height: 22px; text-align: center; padding: 10px;}
- a{font: 12px roboto, arial, sans-serif; color: #555555; text-align: center; padding: 0;}
- a:hover{color: #005db4;}
- hr{border: none; border-top: 1px solid #eee; height: 1px;}
-
-@media screen and (max-width:760px){
-    button{padding:8px; font-size: 20px; margin:1px 2px;}
-    #ana{width:100%;} .bosluk{padding: 8px 42px;} 
-    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 16px;}
-}
-@media screen and (max-width:480px){
-    button{padding:4px 6px; font-size: 16px;} .bosluk{padding: 4px 32px;} 
-    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 12px;}
-}
-
-@media screen and (max-width:375px){
-    button{font-size: 14px; margin:1px;} .bosluk{padding: 4px 22px;} 
-    .besmele, .temizle, .bosluk, .tab, .sil, .entr{font-size: 10px;}
-=======
 /* Özel Tuşlar */
 .key.function {
     font-size: 18px;
@@ -357,5 +310,4 @@ footer {
     .footer-header h1 {
         font-size: 1.4rem;
     }
->>>>>>> 89b2f06 (v 2.0)
 }
